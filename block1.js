@@ -17,7 +17,7 @@ class Block1 {
     if (this.body.speed < 6) {
       var pos =this.body.position;
       rectMode(CENTER);
-      fill("grey");
+      fill("lightBlue");
       rect(pos.x, pos.y, this.width, this.height);
     }
     else {
