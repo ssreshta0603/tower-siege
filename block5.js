@@ -16,7 +16,7 @@ class Block5 {
   }
   display(){
        
-    if (this.body.speed < 3) {
+    if (this.body.speed < 6) {
       var pos =this.body.position;
       rectMode(CENTER);
       fill(80,80,80);
