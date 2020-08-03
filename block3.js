@@ -16,7 +16,7 @@ class Block3 {
   }
   display(){
        
-    if (this.body.speed < 3) {
+    if (this.body.speed < 5) {
       var pos =this.body.position;
       rectMode(CENTER);
       fill("lightGreen");
