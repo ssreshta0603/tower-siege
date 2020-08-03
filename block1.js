@@ -8,13 +8,15 @@ class Block1 {
       
     }
     this.body = Bodies.rectangle(x, y, width, height, options);
+    this.visibility = 255;
     this.width = width;
     this.height = height;
-      this.visibility = 255;
     World.add(world, this.body);
+   
   }
   display(){
-    if (this.body.speed < 6) {
+       
+    if (this.body.speed < 3) {
       var pos =this.body.position;
       rectMode(CENTER);
       fill("lightBlue");
@@ -26,9 +28,12 @@ class Block1 {
       this.visibility = this.visibility - 5;
       tint(255, this.visibility);
       pop();
-    };
-  }
-}
+    }
+
     
   
+    
+  }
+}
+
   
