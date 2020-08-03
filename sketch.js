@@ -67,7 +67,7 @@ function setup() {
 	//row3.
 	block34=new Block2(900,180,30,40);
 
-	      polygon = new Polygon(100,200,30);
+		  polygon = new Polygon(100,200,100);
 		  ground1 = new Ground(550,380,300,10);
 		  ground2 = new Ground(900,250,200,10);  
 		  slingshot = new SlingShot(polygon.body,{x:110,y:210});
